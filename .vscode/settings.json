@@ -1,0 +1,4 @@
+{
+  "eslint.useFlatConfig": true,
+  "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config/viewer-config.cjs"
+}
