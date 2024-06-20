@@ -4,7 +4,9 @@ CREATE TABLE merchants (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
+
 ALTER TABLE merchants ENABLE ROW LEVEL SECURITY;
+
 CREATE POLICY "Merchants only see themselves"
   ON merchants FOR SELECT
   TO authenticated

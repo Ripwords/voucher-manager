@@ -1,2 +1,0 @@
-ALTER TABLE vouchers
-  ALTER COLUMN redeemed SET NOT NULL;
